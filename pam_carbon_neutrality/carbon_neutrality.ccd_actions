@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.ocopomo.ccd="http://www.ocopomo.org/ccd/1.0" xmi:id="_0QzLUP7REe2kU8PkJoPuuw" type="CCDActionsModel" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_0QzLUf7REe2kU8PkJoPuuw"/>
+  <element xmi:type="org.ocopomo.ccd:CCD" href="carbon_neutrality.ccd#_y77fkP7QEe2kU8PkJoPuuw"/>
+</notation:Diagram>
