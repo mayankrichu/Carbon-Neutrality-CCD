@@ -1,2 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.ocopomo.ccd:CCD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.ocopomo.ccd="http://www.ocopomo.org/ccd/1.0" xmi:id="_y77fkP7QEe2kU8PkJoPuuw"/>
+<org.ocopomo.ccd:CCD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.ocopomo.ccd="http://www.ocopomo.org/ccd/1.0" xmi:id="_y77fkP7QEe2kU8PkJoPuuw">
+  <actors xmi:id="_TzWc4ABjEe6YS5GXm75jlg" name="EnergySuppliers">
+    <relations xmi:id="_VXYngAGMEe6YS5GXm75jlg" name="suppliesenergy" target="_Nq_soABlEe6YS5GXm75jlg"/>
+  </actors>
+  <actors xmi:id="_fxmXkABjEe6YS5GXm75jlg" name="Citizen">
+    <relations xmi:id="_UAPHAAGPEe6YS5GXm75jlg" name="has" target="_PnZH4ABlEe6YS5GXm75jlg"/>
+    <relations xmi:id="_hw1wIAGPEe6YS5GXm75jlg" name="has" target="_ZQYbYABlEe6YS5GXm75jlg"/>
+    <relations xmi:id="_k8raAAGPEe6YS5GXm75jlg" name="has" target="_UeTMcABlEe6YS5GXm75jlg"/>
+    <relations xmi:id="_OT7PAAGQEe6YS5GXm75jlg" name="has" target="_avF1EABlEe6YS5GXm75jlg"/>
+  </actors>
+  <actors xmi:id="_B8q5wABkEe6YS5GXm75jlg" name="EducationalInstitute"/>
+  <actors xmi:id="_DlkKMABkEe6YS5GXm75jlg" name="Experts">
+    <relations xmi:id="_KyQ3YAGWEe6zi8uq4H0wuA" name="has" target="_ir5TkABlEe6YS5GXm75jlg"/>
+    <relations xmi:id="_wTfLIAGYEe6zi8uq4H0wuA" name="has" target="_9LgGwAGVEe6zi8uq4H0wuA"/>
+    <subtypes xmi:id="_bjlggAGLEe6YS5GXm75jlg" name="Environmental Experts"/>
+    <subtypes xmi:id="_eN38gAGLEe6YS5GXm75jlg" name="STEM Field Experts"/>
+  </actors>
+  <actors xmi:id="_OcCbcAGLEe6YS5GXm75jlg" name="Industry">
+    <relations xmi:id="_OBheIAGVEe6zi8uq4H0wuA" name="has" target="_PnZH4ABlEe6YS5GXm75jlg"/>
+    <relations xmi:id="_R5gcUAGVEe6zi8uq4H0wuA" name="has" target="_ZQYbYABlEe6YS5GXm75jlg"/>
+    <relations xmi:id="_Y-pTAAGVEe6zi8uq4H0wuA" name="has" target="_avF1EABlEe6YS5GXm75jlg"/>
+    <subtypes xmi:id="_EuNNQABkEe6YS5GXm75jlg" name="Food Industry"/>
+    <subtypes xmi:id="_2A65cABjEe6YS5GXm75jlg" name="Manufacturing Industry"/>
+    <subtypes xmi:id="_w6wQ4ABjEe6YS5GXm75jlg" name="IT Industry"/>
+  </actors>
+  <actors xmi:id="_Xzer8AGLEe6YS5GXm75jlg" name="Government">
+    <subtypes xmi:id="_tvJ3kABjEe6YS5GXm75jlg" name="Local Government"/>
+    <subtypes xmi:id="_vupDEABjEe6YS5GXm75jlg" name="Federal Government"/>
+  </actors>
+  <actors xmi:id="_h60IUAGLEe6YS5GXm75jlg" name="Organization">
+    <subtypes xmi:id="_VtP9wABjEe6YS5GXm75jlg" name="Temperature Monitoring Organization"/>
+    <subtypes xmi:id="_zPYl8ABjEe6YS5GXm75jlg" name="International Organization"/>
+    <subtypes xmi:id="_lu2aoAGLEe6YS5GXm75jlg" name="Non-profit Government Organization"/>
+  </actors>
+  <objects xmi:id="_Nq_soABlEe6YS5GXm75jlg" name="EnergySource">
+    <attributes xmi:id="_pWZ6sAGMEe6YS5GXm75jlg" name="has" targetValueType="Enum" enum="_9t3jEAGMEe6YS5GXm75jlg"/>
+    <attributes xmi:id="_kf7egAGNEe6YS5GXm75jlg" name="is" enum="_Zwp4YAGNEe6YS5GXm75jlg"/>
+  </objects>
+  <objects xmi:id="_PnZH4ABlEe6YS5GXm75jlg" name="CarbonFootprint"/>
+  <objects xmi:id="_RsFjgABlEe6YS5GXm75jlg" name="Location"/>
+  <objects xmi:id="_UeTMcABlEe6YS5GXm75jlg" name="Income"/>
+  <objects xmi:id="_ZQYbYABlEe6YS5GXm75jlg" name="CarbonOffset"/>
+  <objects xmi:id="_avF1EABlEe6YS5GXm75jlg" name="CarbonfootprintTiers">
+    <attributes xmi:id="_RZhG8AGQEe6YS5GXm75jlg" name="tierIs" targetValueType="Enum" enum="_o2hj8AGQEe6YS5GXm75jlg"/>
+  </objects>
+  <objects xmi:id="_c6BbkABlEe6YS5GXm75jlg" name="TransportCompany"/>
+  <objects xmi:id="_gpvOkABlEe6YS5GXm75jlg" name="region"/>
+  <objects xmi:id="_ir5TkABlEe6YS5GXm75jlg" name="TotalBudget">
+    <attributes xmi:id="_Avt0YAGWEe6zi8uq4H0wuA" name="totalbudget" targetValueType="Double"/>
+  </objects>
+  <objects xmi:id="_kiyjwABlEe6YS5GXm75jlg" name="technology"/>
+  <objects xmi:id="_ljt1QABlEe6YS5GXm75jlg" name="number of users"/>
+  <objects xmi:id="_n0_UUABlEe6YS5GXm75jlg" name="Industry type"/>
+  <objects xmi:id="_pih0MABlEe6YS5GXm75jlg" name="expertise in"/>
+  <objects xmi:id="_ZcA2YAGTEe6zi8uq4H0wuA" name="Curriculam">
+    <attributes xmi:id="_frzZcAGTEe6zi8uq4H0wuA" name="hasEnvironmentalCurriculam" enum="_qDBr8AGTEe6zi8uq4H0wuA"/>
+  </objects>
+  <objects xmi:id="_qU0UoAGVEe6zi8uq4H0wuA" name="CarbonEmissionTarget"/>
+  <objects xmi:id="_9LgGwAGVEe6zi8uq4H0wuA" name="RemainingBudget">
+    <attributes xmi:id="_dWj5AAGWEe6zi8uq4H0wuA" name="remainingbudget" targetValueType="Double"/>
+  </objects>
+  <actions xmi:id="_79IWAABfEe6YS5GXm75jlg" name="International Organization responds to change" preconditions="_lc2OsABZEe6YS5GXm75jlg" postconditions="_C-SroABgEe6YS5GXm75jlg"/>
+  <actions xmi:id="_GfloIABgEe6YS5GXm75jlg" name="Government discusses Experts" preconditions="_C-SroABgEe6YS5GXm75jlg" postconditions="_mgXnkABhEe6YS5GXm75jlg"/>
+  <actions xmi:id="_pM7w8ABgEe6YS5GXm75jlg" name="Government disusses with Industry" preconditions="_C-SroABgEe6YS5GXm75jlg" postconditions="_W2UJgABhEe6YS5GXm75jlg"/>
+  <actions xmi:id="_r89BgABgEe6YS5GXm75jlg" name="Government discusses with Citizens" preconditions="_C-SroABgEe6YS5GXm75jlg" postconditions="_W2UJgABhEe6YS5GXm75jlg"/>
+  <actions xmi:id="_b53i8ABhEe6YS5GXm75jlg" name="Pay Tax" preconditions="_W2UJgABhEe6YS5GXm75jlg" postconditions="_GK0nIABiEe6YS5GXm75jlg"/>
+  <actions xmi:id="_eSUoEABhEe6YS5GXm75jlg" name="use new technology" postconditions="_GK0nIABiEe6YS5GXm75jlg"/>
+  <actions xmi:id="_iyvfQABhEe6YS5GXm75jlg" name="Uses the application" preconditions="_mgXnkABhEe6YS5GXm75jlg _W2UJgABhEe6YS5GXm75jlg" postconditions="_GK0nIABiEe6YS5GXm75jlg"/>
+  <actions xmi:id="_AQbFQABiEe6YS5GXm75jlg" name="Carbon offsett" preconditions="_W2UJgABhEe6YS5GXm75jlg" postconditions="_GK0nIABiEe6YS5GXm75jlg"/>
+  <conditions xmi:id="_lc2OsABZEe6YS5GXm75jlg" name="Global Temperature Rises" preconditionOfActions="_79IWAABfEe6YS5GXm75jlg"/>
+  <conditions xmi:id="_C-SroABgEe6YS5GXm75jlg" name="German Government prepares plan" preconditionOfActions="_GfloIABgEe6YS5GXm75jlg _pM7w8ABgEe6YS5GXm75jlg _r89BgABgEe6YS5GXm75jlg" postconditionOfActions="_79IWAABfEe6YS5GXm75jlg"/>
+  <conditions xmi:id="_W2UJgABhEe6YS5GXm75jlg" name="Carbon emission > Carbon offsetting" preconditionOfActions="_iyvfQABhEe6YS5GXm75jlg _b53i8ABhEe6YS5GXm75jlg _AQbFQABiEe6YS5GXm75jlg" postconditionOfActions="_pM7w8ABgEe6YS5GXm75jlg _r89BgABgEe6YS5GXm75jlg"/>
+  <conditions xmi:id="_mgXnkABhEe6YS5GXm75jlg" name="IT industry comes with an App" preconditionOfActions="_iyvfQABhEe6YS5GXm75jlg" postconditionOfActions="_GfloIABgEe6YS5GXm75jlg"/>
+  <conditions xmi:id="_GK0nIABiEe6YS5GXm75jlg" name="Carbon  neutrality achieved" postconditionOfActions="_AQbFQABiEe6YS5GXm75jlg _b53i8ABhEe6YS5GXm75jlg _eSUoEABhEe6YS5GXm75jlg _iyvfQABhEe6YS5GXm75jlg"/>
+  <enums xmi:id="_9t3jEAGMEe6YS5GXm75jlg" name="EnergySource">
+    <literals xmi:id="_AKcTMAGNEe6YS5GXm75jlg" name="Oil"/>
+    <literals xmi:id="_BwjVYAGNEe6YS5GXm75jlg" name="Gas"/>
+    <literals xmi:id="_DT8awAGNEe6YS5GXm75jlg" name="BioMass"/>
+    <literals xmi:id="_FgB30AGNEe6YS5GXm75jlg" name="Hydro"/>
+    <literals xmi:id="_Higs8AGNEe6YS5GXm75jlg" name="Nuclear"/>
+    <literals xmi:id="_JXQoEAGNEe6YS5GXm75jlg" name="Solar"/>
+    <literals xmi:id="_MZAh0AGNEe6YS5GXm75jlg" name="Wind"/>
+  </enums>
+  <enums xmi:id="_Zwp4YAGNEe6YS5GXm75jlg" name="EnergyType">
+    <literals xmi:id="_eCPCUAGNEe6YS5GXm75jlg" name="NonRenewable"/>
+    <literals xmi:id="_gNq_IAGNEe6YS5GXm75jlg" name="Renewable"/>
+  </enums>
+  <enums xmi:id="_o2hj8AGQEe6YS5GXm75jlg" name="CarbonFootprintTier">
+    <literals xmi:id="_rVlnYAGQEe6YS5GXm75jlg" name="High"/>
+    <literals xmi:id="_tlktAAGQEe6YS5GXm75jlg" name="Medium"/>
+    <literals xmi:id="_vrw9cAGQEe6YS5GXm75jlg" name="Low"/>
+  </enums>
+  <enums xmi:id="_qDBr8AGTEe6zi8uq4H0wuA" name="EnvironmentalCurriculam">
+    <literals xmi:id="_tA2H8AGTEe6zi8uq4H0wuA" name="Yes"/>
+    <literals xmi:id="_vB6AwAGTEe6zi8uq4H0wuA" name="No"/>
+  </enums>
+</org.ocopomo.ccd:CCD>
