@@ -1,0 +1,67 @@
+﻿Initial scenarios for citizens stakeholders from the Citizens Climate Report.
+
+Primary Aims:
+
+1. Reducing Emissions from Livestock Farming:
+   * By 2030, emissions from livestock farming should be decreased by 50% or more. This requires a significant reduction in livestock numbers across Germany, including those in high stocking density operations (factory farming).
+
+2. Ensuring Emission Reductions Are Not Offset by Imports:
+   * The federal government must take appropriate measures to prevent emissions reductions achieved through decreased domestic meat and dairy production from being negated by imports.
+
+3. Considering Carbon Content Impact in Export Policy:
+   * Export policies should take into account the carbon content impact to ensure a sustainable approach.
+
+4. Increasing Renewable Energy in the Total Energy Supply:
+   * By 2035, 70% of Germany's total energy supply should be sourced from renewable sources, aiming to reduce carbon consumption. By 2040, this figure should reach 90%.
+
+5. Achieving 100% Renewable Electricity Supply:
+   * By 2035, Germany should strive for a complete transition to a renewable energy-based electricity supply, ensuring all electricity comes from renewable sources.
+
+
+Steps for carbon neutralization:
+
+1. Advancement of Wind Energy:
+   * Wind energy promotion should be prioritized.
+
+2. Accelerated Coal Phaseout:
+   * The deadline for nationwide coal phaseout should be moved up from 2038 to 2030.
+
+3. Enhanced Digitization in Rural Areas:
+   * Emphasis should be placed on advancing and expanding digitization, particularly by improving fiber optic cables and mobile networks in rural regions.
+
+4. Flexible Electricity Pricing:
+   * Consumers' electricity prices should be adaptable and based on supply and demand within the electricity grid.
+
+5. Electric Cars as Surplus Electricity Storage:
+   * Electric vehicles should be utilized as temporary storage for excess electricity, compensating owners financially.
+
+6. Extended Lifespan of Electronic Devices:
+   * The intentional shortening of electronic device lifespans must be eliminated, and the minimum warranty period should be extended to 10 years.
+
+7. Promotion of Citizen-Led Energy Initiatives:
+   * Citizen-led energy cooperatives and companies should be encouraged to finance and expand renewable energy systems.
+
+8. Public Engagement in Renewable Energy Projects:
+   * Sufficient information about renewable energy projects and consideration of public opinion should be provided to the local population before commencing construction.
+
+9. Strengthening Decentralized Energy Supply:
+   * To achieve a balanced energy supply, both centralized and decentralized sources need to be strengthened.
+
+10. Utilization of Agricultural Land and Water Areas:
+   * Where feasible, agricultural land and water areas should be utilized for electricity generation.
+
+11. Expansion of Photovoltaic Systems:
+   * Available areas such as parking lots, fallow land, and unused building lots should be assessed for their potential to host photovoltaic system expansions.
+
+12. Land Allocation for Renewable Energy Generation:
+   * Each federal state should dedicate at least two percent of its total land area to expanding photovoltaic and wind energy generation.
+
+13. Municipality Plans for Climate Neutrality:
+   * By involving citizens, every municipality must develop a plan to achieve climate neutrality in the energy sector by 2030, with the deadline set for 2023.
+
+
+14. Mandatory Photovoltaic Systems on Rooftops:
+   * Starting in 2022, the gradual introduction and inclusion of photovoltaic systems on rooftops should be mandatory in all construction plans.
+—-----------------------------------------------------------------------------------------------------------------------------------
+Online source: https://buergerrat-klima.de/english-information
+Olat Source: Exercise 3/Collected Scenarios/Source/Citizens Assembly.pdf

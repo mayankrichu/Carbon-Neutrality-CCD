@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.ocopomo.ccd:CCD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.ocopomo.ccd="http://www.ocopomo.org/ccd/1.0" xmi:id="_y77fkP7QEe2kU8PkJoPuuw">
+<org.ocopomo.ccd:CCD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.ocopomo.annotation="http://www.ocopomo.org/annotation/1.0" xmlns:org.ocopomo.ccd="http://www.ocopomo.org/ccd/1.0" xmi:id="_y77fkP7QEe2kU8PkJoPuuw">
   <actors xmi:id="_TzWc4ABjEe6YS5GXm75jlg" name="EnergySuppliers">
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_ThUGUAMDEe6akdRYcJCByg" phrase="Increasing Renewable Energy in the Total Energy Supply:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="792" length="55"/>
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_cn1l8AMDEe6akdRYcJCByg" phrase=" Advancement of Wind Energy:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="1278" length="28"/>
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_djJXoAMDEe6akdRYcJCByg" phrase="Accelerated Coal Phaseout:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="1364" length="26"/>
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_knQ6oAMDEe6akdRYcJCByg" phrase="Flexible Electricity Pricing:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="1683" length="29"/>
     <relations xmi:id="_VXYngAGMEe6YS5GXm75jlg" name="suppliesenergy" target="_Nq_soABlEe6YS5GXm75jlg"/>
   </actors>
   <actors xmi:id="_fxmXkABjEe6YS5GXm75jlg" name="Citizen">
@@ -11,22 +15,37 @@
   </actors>
   <actors xmi:id="_B8q5wABkEe6YS5GXm75jlg" name="EducationalInstitute"/>
   <actors xmi:id="_DlkKMABkEe6YS5GXm75jlg" name="Experts">
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_rZgf8AMCEe6akdRYcJCByg" phrase="the council of Experts for climate matters will monitor and come with the report of the goals achieved, and measures and trends." uri="Federal+Government.txt" start="694" length="128"/>
     <relations xmi:id="_KyQ3YAGWEe6zi8uq4H0wuA" name="has" target="_ir5TkABlEe6YS5GXm75jlg"/>
     <relations xmi:id="_wTfLIAGYEe6zi8uq4H0wuA" name="has" target="_9LgGwAGVEe6zi8uq4H0wuA"/>
     <subtypes xmi:id="_bjlggAGLEe6YS5GXm75jlg" name="Environmental Experts"/>
     <subtypes xmi:id="_eN38gAGLEe6YS5GXm75jlg" name="STEM Field Experts"/>
   </actors>
   <actors xmi:id="_OcCbcAGLEe6YS5GXm75jlg" name="Industry">
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_FR7r8AMCEe6akdRYcJCByg" phrase="We have to come up with allowed CO2 emissions for different sectors such as energy, industry, transport and buildings.&#xD;&#xA;" uri="Federal+Government.txt" start="422" length="120"/>
     <relations xmi:id="_OBheIAGVEe6zi8uq4H0wuA" name="has" target="_PnZH4ABlEe6YS5GXm75jlg"/>
     <relations xmi:id="_R5gcUAGVEe6zi8uq4H0wuA" name="has" target="_ZQYbYABlEe6YS5GXm75jlg"/>
     <relations xmi:id="_Y-pTAAGVEe6zi8uq4H0wuA" name="has" target="_avF1EABlEe6YS5GXm75jlg"/>
-    <subtypes xmi:id="_EuNNQABkEe6YS5GXm75jlg" name="Food Industry"/>
-    <subtypes xmi:id="_2A65cABjEe6YS5GXm75jlg" name="Manufacturing Industry"/>
-    <subtypes xmi:id="_w6wQ4ABjEe6YS5GXm75jlg" name="IT Industry"/>
+    <subtypes xmi:id="_EuNNQABkEe6YS5GXm75jlg" name="Food Industry">
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_IK3LcAMDEe6akdRYcJCByg" phrase="Reducing Emissions from Livestock Farming:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="101" length="42"/>
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_PR6GoAMDEe6akdRYcJCByg" phrase="decreased domestic meat and dairy production from being negated by imports" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="545" length="74"/>
+    </subtypes>
+    <subtypes xmi:id="_2A65cABjEe6YS5GXm75jlg" name="Manufacturing Industry">
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_pGdp0AMDEe6akdRYcJCByg" phrase="Electric Cars as Surplus Electricity Storage:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="1835" length="45"/>
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_qIQeAAMDEe6akdRYcJCByg" phrase=" Extended Lifespan of Electronic Devices:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="2007" length="41"/>
+    </subtypes>
+    <subtypes xmi:id="_w6wQ4ABjEe6YS5GXm75jlg" name="IT Industry">
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_is-_QAMDEe6akdRYcJCByg" phrase="Enhanced Digitization in Rural Areas:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="1483" length="37"/>
+    </subtypes>
   </actors>
   <actors xmi:id="_Xzer8AGLEe6YS5GXm75jlg" name="Government">
-    <subtypes xmi:id="_tvJ3kABjEe6YS5GXm75jlg" name="Local Government"/>
-    <subtypes xmi:id="_vupDEABjEe6YS5GXm75jlg" name="Federal Government"/>
+    <subtypes xmi:id="_tvJ3kABjEe6YS5GXm75jlg" name="Local Government">
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_5a3FYAMDEe6akdRYcJCByg" phrase=" Municipality Plans for Climate Neutrality:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="3319" length="43"/>
+    </subtypes>
+    <subtypes xmi:id="_vupDEABjEe6YS5GXm75jlg" name="Federal Government">
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_-4pOoAMBEe6akdRYcJCByg" phrase="federal government" uri="Federal+Government.txt" start="5" length="18"/>
+      <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_6_m1oAMDEe6akdRYcJCByg" phrase="Land Allocation for Renewable Energy Generation:" uri="Initial_Scenario_Citizens_Climate_Report.txt" start="3125" length="48"/>
+    </subtypes>
   </actors>
   <actors xmi:id="_h60IUAGLEe6YS5GXm75jlg" name="Organization">
     <subtypes xmi:id="_VtP9wABjEe6YS5GXm75jlg" name="Temperature Monitoring Organization"/>
@@ -47,17 +66,19 @@
   <objects xmi:id="_c6BbkABlEe6YS5GXm75jlg" name="TransportCompany"/>
   <objects xmi:id="_gpvOkABlEe6YS5GXm75jlg" name="region"/>
   <objects xmi:id="_ir5TkABlEe6YS5GXm75jlg" name="TotalBudget">
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_T7WMYAMCEe6akdRYcJCByg" phrase="Based on the budget, Federal Government will adjusts its approach." uri="Federal+Government.txt" start="823" length="66"/>
     <attributes xmi:id="_Avt0YAGWEe6zi8uq4H0wuA" name="totalbudget" targetValueType="Double"/>
   </objects>
   <objects xmi:id="_kiyjwABlEe6YS5GXm75jlg" name="technology"/>
-  <objects xmi:id="_ljt1QABlEe6YS5GXm75jlg" name="number of users"/>
-  <objects xmi:id="_n0_UUABlEe6YS5GXm75jlg" name="Industry type"/>
   <objects xmi:id="_pih0MABlEe6YS5GXm75jlg" name="expertise in"/>
   <objects xmi:id="_ZcA2YAGTEe6zi8uq4H0wuA" name="Curriculam">
     <attributes xmi:id="_frzZcAGTEe6zi8uq4H0wuA" name="hasEnvironmentalCurriculam" enum="_qDBr8AGTEe6zi8uq4H0wuA"/>
   </objects>
-  <objects xmi:id="_qU0UoAGVEe6zi8uq4H0wuA" name="CarbonEmissionTarget"/>
+  <objects xmi:id="_qU0UoAGVEe6zi8uq4H0wuA" name="CarbonEmissionTarget">
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_Z43TsAMCEe6akdRYcJCByg" phrase="Reduce emissions by 65 % of 1990 levels by 2030" uri="Federal+Government.txt" start="188" length="47"/>
+  </objects>
   <objects xmi:id="_9LgGwAGVEe6zi8uq4H0wuA" name="RemainingBudget">
+    <annotations xmi:type="org.ocopomo.annotation:TxtAnnotation" xmi:id="_VGrXEAMCEe6akdRYcJCByg" phrase="Based on the budget, Federal Government will adjusts its approach." uri="Federal+Government.txt" start="823" length="66"/>
     <attributes xmi:id="_dWj5AAGWEe6zi8uq4H0wuA" name="remainingbudget" targetValueType="Double"/>
   </objects>
   <actions xmi:id="_79IWAABfEe6YS5GXm75jlg" name="International Organization responds to change" preconditions="_lc2OsABZEe6YS5GXm75jlg" postconditions="_C-SroABgEe6YS5GXm75jlg"/>
@@ -95,4 +116,5 @@
     <literals xmi:id="_tA2H8AGTEe6zi8uq4H0wuA" name="Yes"/>
     <literals xmi:id="_vB6AwAGTEe6zi8uq4H0wuA" name="No"/>
   </enums>
+  <variables xmi:id="_Denz4AMFEe6akdRYcJCByg"/>
 </org.ocopomo.ccd:CCD>
